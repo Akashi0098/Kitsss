@@ -1,0 +1,26 @@
+:root {
+  --background-dark: #121212; /* Dark background for the page */
+  --content-background: #1a1a1a; /* Slightly lighter black for content areas */
+  --font-light: #e0e0e0; /* Soft white font color */
+}
+
+body {
+  display: grid;
+  place-items: center;
+  min-height: 100vh; /* Makes the body fill the viewport height */
+  margin: 0;
+  background-color: var(
+    --background-dark
+  ); /* Use the background color variable */
+  font-family: Arial, sans-serif; /* Optional font */
+  color: var(--font-light); /* Default font color */
+}
+
+.container {
+  max-width: 800px;
+  width: 100%;
+  padding: 20px;
+  background: var(
+    --content-background
+  ); /* Use the content background color variable */
+}
